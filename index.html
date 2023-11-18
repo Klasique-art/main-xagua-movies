@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is one of the best movie sites ever made by Klasique.">
+    <title>Xagua movies</title>
+    <link rel="stylesheet" href="input.css">
+    <link rel="stylesheet" href="css/settings.css">
+    <script src="js/all.js"></script>
+</head>
+<body class="overflow-x-clip">
+    <!-- navbar -->
+    <nav class="w-full bg-[#1f2029] z-[9999] fixed top-0 left-0 shadow-md shadow-[rgba(255,233,233,.1)]" role="navigation">
+        <!-- polygons -->
+        <div class="absolute top-full left-0 w-24 h-4 bg-inherit z-[inherit]" style="clip-path: polygon(0 0, 100% 0%, 82% 100%, 0% 100%);"></div>
+        <div class="absolute top-full right-0 w-24 h-4 bg-inherit z-[inherit]" style="clip-path: polygon(0 0, 100% 0%, 100% 100%, 18% 100%);"></div>
+        <!-- end of polygons -->
+        <!-- navbar wrapper -->
+        <div class="w-full max-w-[1200px] mx-[auto] flex items-center justify-between h-16 md:h-20 px-2 md:px-4">
+            <!-- logo -->
+            <a href="#" class="flex items-center gap-2">
+                <figure class="w-6 sm:w-8 md:w-10 h-auto">
+                    <img src="img/site/logo.png" alt="logo">
+                </figure>
+                <h1 class="text-[#ff8605] font-bold font-[cinzel] text-sm sm:text-2xl md:text-4xl uppercase">xagua</h1>
+            </a>
+            <!-- end of logo -->
+            <!-- nav links -->
+            <ul class="nav-list" id="nav-list">
+                <li class="md:h-full md:w-32">
+                    <a href="#n" class="nav-link">home</a>
+                </li>
+                <li class="md:h-full sm:w-24 md:w-32">
+                    <a href="#n" class="nav-link">contact</a>
+                </li>
+                <li class="md:h-full sm:w-24 md:w-32">
+                    <a href="#n" class="nav-link">about</a>
+                </li>
+            </ul>
+            <!-- end of nav links -->
+            <!-- buttons box -->
+            <div class="flex items-center gap-2">
+                <!-- login -->
+                <button class="login-btn" style="box-shadow: 0 0 4px hsla(0, 0%, 0%, 0.2);">login</button>
+                <!-- end of login -->
+                <!-- mobile menu btn -->
+                <button class="p-2 w-10 text-2xl text-[#ff8605] md:hidden" aria-label="navigation menu button" id="nav-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <!-- end of mobile menu btn -->
+            </div>
+            <!-- end of buttons box -->
+        </div>
+        <!-- end of navbar wrapper -->
+    </nav>
+    <!-- end of navbar -->
+    <!-- header -->
+    <header role="banner" class="w-full h-[calc(100dvh-4rem)] mt-16 md:mt-20 md:h-[calc(100dvh-5rem)] bg-[url('img/site/header-banner.jpeg')] bg-gray-700 bg-blend-multiply bg-no-repeat bg-cover bg-center flex items-center justify-center overflow-hidden">
+        <!-- header content -->
+        <div class="container text-center uppercase">
+            <h4 class="header-text" style="text-shadow: 0 7px #00000066;">watch your favorite movies on</h4>
+            <h1 class="font-[cinzel] text-6xl sm:text-7xl md:text-[10rem] font-extrabold text-yellow-100 mb-3 md:mb-5">Xagua</h1>
+            <h2 class="header-text mb-6 md:mb-8">discover new movies</h2>
+            <a href="#movies-section" class="all-btns sm:py-4 px-4 sm:px-12 md:text-2xl" id="header-link" style="clip-path:  polygon(90% 0, 100% 34%, 100% 100%, 10% 100%, 0 66%, 0 0);">browse movies</a>
+        </div>
+        <!-- end of header content -->
+    </header>
+    <!-- end of header -->
+    <!-- hero section -->
+    <section class="section hero-section">
+        <!-- hero wrapper -->
+        <div class="inner-wrapper pb-16 text-yellow-100 bg-[url('img/site/shadow-img.png')] bg-no-repeat" style="background-position: 90% center; background-size: 55%;">
+            <!-- hero 1 -->
+            <div class="w-full flex items-center justify-between flex-col-reverse xl:flex-row py-16">
+                <!-- content box -->
+                <div class="w-full max-w-[600px] bg-[#1f2029] px-6 py-8 md:px-8 md:py-10 h-full rounded-md">
+                    <p class="uppercase mb-2 text-[#ff8605] sm:text-xl">find favorite actors</p>
+                    <h1 class="uppercase mb-2 font-semibold text-3xl sm:text-5xl md:text-6xl">EXPERIENCE JUST FOR you OFFER</h1>
+                    <p class="mb-2 md:text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem necessitatibus odio beatae autem eum ut nesciunt architecto ipsum facere illo error nulla optio consectetur saepe quibusdam quasi vero, perspiciatis eaque.</p>
+                    <p class="md:text-xl">Lorem ipsum dolor sit amet.</p>
+                </div>
+                <!-- end of content box -->
+                <!-- image box -->
+                <figure class="p-6 relative h-48 sm:h-96 w-full max-w-[600px]">
+                    <img src="img/site/char1.png" alt="character image" class="absolute top-1/2 -translate-y-1/2 -left-10 hidden md:block">
+                    <img src="img/site/char2.png" alt="character image" class="absolute top-1/2 -translate-y-1/2 right-[11rem] w-32 hidden sm:block">
+                    <img src="img/site/char3.png" alt="character image" class="absolute top-1/2 -translate-y-1/2 right-5 hidden md:block">
+                    <img src="img/site/logo.png" alt="logo image" class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 inset-0 object-cover z-10 h-full sm:h-72 md:h-96 max-w-[340px]">
+                </figure>
+                <!-- end of image box -->
+            </div>
+            <!-- end of hero 1 -->
+            <!-- hero 2 -->
+            <div class="hero-2">
+                <!-- ad 1 -->
+                <div class="w-full lg:flex-1">
+                    <h4 class="text-[#ff8605] font-thin tracking-wide text-sm sm:text-lg md:text-xl lg:text-2xl mb-1 lg:mb-4">CHECK OUT OUR NEXT</h4>
+                    <h1 class="text-3xl sm:text-4xl md:text-5xl uppercase font-bold mb-2 lg:mb-4">movie premiers!</h1>
+                    <p class="mb-3 lg:mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate facilis hic, debitis nulla adipisci quae.</p>
+                    <a href="#n" class="all-btns px-6 py-2" id="header-link" style="clip-path:  polygon(90% 0, 100% 34%, 100% 100%, 10% 100%, 0 66%, 0 0);">join us</a>
+                </div>
+                <!-- end of ad 1 -->
+                <!-- ad 2 -->
+                <div class="w-full flex flex-col items-center justify-center gap-4 lg:flex-1 lg:p-3">
+                    <h1 class="text-3xl sm:text-4xl md:text-5xl uppercase font-bold">PRIZE POOL</h1>
+                    <div class="py-2 sm:py-4 px-6 sm:px-12 bg-[#ff8605] w-max rounded-3xl">$120,000</div>
+                    <figure class="w-full md:w-96 lg:w-[15rem] h-48 lg:h-auto md:h-72">
+                        <img src="img/site/price.png" alt="treasure" class="w-full h-full object-cover">
+                    </figure>
+                </div>
+                <!-- end of ad 2 -->
+                <!-- ad 3 -->
+                <div class="ad-3 lg:flex-1">
+                    <h1 class="text-2xl sm:text-3xl md:text-4xl uppercase font-bold mb-4">LAST WINNERS</h1>
+                    <div class="w-full flex items-center justify-center flex-col md:flex-row gap-14">
+                        <figure class="ad-3-img-box">
+                            <img src="img/site/win1.png" alt="bull head">
+                            <figcaption class="ad-3-img-caption">1ST PLACE</figcaption>
+                        </figure>
+                        <figure class="ad-3-img-box">
+                            <img src="img/site/win2.png" alt="eagle head">
+                            <figcaption class="ad-3-img-caption">2ND PLACE</figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <!-- end of ad 3 -->
+            </div>
+            <!-- en of hero 2 -->
+        </div>
+        <!-- end of hero wrapper -->
+    </section>
+    <!-- end of hero section -->
+    <!-- most popular movies section -->
+    <section class="section hero-section text-yellow-100">
+        <!-- section wrapper -->
+        <div class="w-full">
+            <!-- title box -->
+            <div class="w-full flex items-center justify-center flex-col gap-2">
+                <h1 class="text-3xl md:text-5xl uppercase font-bold">most popular</h1>
+                <img src="img/site/section_line.png" class="max-w-[6rem]" alt="" draggable="false">
+            </div>
+            <!-- end of title box -->
+            <!-- slide image wrapper -->
+            <div class="w-full py-20">
+                <div class="w-full flex items-center gap-3 pb-6 overflow-x-auto snap-x snap-mandatory" id="img-slide-wrapper">
+                    <!-- image box start -->
+                    <figure class="w-full sm:min-w-[28rem] h-72 md:h-[25rem] sm:w-[28rem md:min-w-[45rem] min-w-full rounded-md overflow-hidden snap-center">
+                        <img src="img/site/pop-1.jpeg" draggable="false" alt="" class="img" loading="lazy">
+                    </figure>
+                    <!-- image box end -->
+                    <!-- image box start -->
+                    <figure class="w-full sm:min-w-[28rem] h-72 md:h-[25rem] sm:w-[28rem md:min-w-[45rem] min-w-full rounded-md overflow-hidden snap-center">
+                        <img src="img/site/pop-2.jpg" draggable="false" alt="" class="img" loading="lazy">
+                    </figure>
+                    <!-- image box end -->
+                    <!-- image box start -->
+                    <figure class="w-full sm:min-w-[28rem] h-72 md:h-[25rem] sm:w-[28rem md:min-w-[45rem] min-w-full rounded-md overflow-hidden snap-center">
+                        <img src="img/site/pop-3.jpg" draggable="false" alt="" class="img" loading="lazy">
+                    </figure>
+                    <!-- image box end -->
+                </div>
+            </div>
+            <!-- end of slide image wrapper -->
+        </div>
+        <!-- end of section wrapper -->
+    </section>
+    <!-- end of most popular movies section -->
+    <!-- movies section -->
+    <div class="section hero-section text-yellow-100 pt-0" id="movies-section">
+        <!-- section wrapper -->
+        <div class="inner-wrapper">
+            <!-- movies display wrapper -->
+            <div class="w-full">
+                <!-- title box -->
+            <div class="w-full flex items-center justify-center flex-col gap-2 mb-4">
+                <h1 class="text-3xl md:text-5xl uppercase font-bold">movies</h1>
+                <img src="img/site/section_line.png" class="max-w-[6rem]" alt="" draggable="false">
+            </div>
+            <!-- end of title box -->
+                <!-- sticky nav -->
+                <div class="w-full sticky top-20 z-10">
+                    <!-- search bar -->
+                    <form class="w-full flex justify-center items-center p-2 lg:p-0 bg-[rgba(10,10,10,.3)] rounded-md">
+                        <input type="text" class="search-input" placeholder="search movie" autocomplete="on"  style="clip-path: polygon(90% 0, 100% 34%, 100% 100%, 10% 100%, 0 66%, 0 0);">
+                    </form>
+                    <!-- end of search bar -->
+                    <!-- filter bar -->
+                    <div class="w-full px-2 py-4 bg-black mb-6 flex gap-4 flex-wrap max-h-40 overflow-y-auto">
+                        <button class="filter-btn active">all</button>
+                        <button class="filter-btn">series</button>
+                        <button class="filter-btn">horror</button>
+                       
+                    </div>
+                </div>
+                <!-- end of sticky nav -->
+                <!-- end of filter bar -->
+                <!-- movies wrapper -->
+                <div class="w-full grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-y-9 md:gap-y-12 gap-x-2 md:gap-x-4">
+                    <!-- movie -->
+                    <a href="#" class="movie-poster-box" tabindex="0">
+                        <figure class="h-72 rounded-md relative">
+                            <img src="img/avengers.jpg" class="inset-0 img rounded-md absolute" alt="ant man movie poster" draggable="false" loading="lazy" data-poster-1>
+                            <img src="img/avengers1.jpg" class="inset-0 img rounded-md absolute duration-500" alt="ant man movie poster" draggable="false" loading="lazy" data-poster-2>
+                            <figcaption class="w-full rounded-md bg-yellow-100 text-gray-900 capitalize font-semibold p-1 absolute -bottom-6">
+                                <h4>ant-man</h4>
+                                <h5 id="movie-date">2022</h5>
+                                <div class="text-sm py-1 px-2 rounded-3xl absolute -top-10 left-2 bg-[rgba(244,244,233,.4)] tracking-wide text-red-700" id="rating">
+                                    <i class="fas fa-star"></i>
+                                    9.3
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </a>
+                    <!-- end of movie -->
+                    <!-- movie -->
+                    <a href="#" class="movie-poster-box" tabindex="0">
+                        <figure class="h-72 rounded-md relative">
+                            <img src="img/ant-man.jpg" class="inset-0 img rounded-md absolute" alt="ant man movie poster" draggable="false" loading="lazy" data-poster-1>
+                            <img src="img/ant-man1.jpg" class="inset-0 img rounded-md absolute duration-500" alt="ant man movie poster" draggable="false" loading="lazy" data-poster-2>
+                            <figcaption class="w-full rounded-md bg-yellow-100 text-gray-800 capitalize font-semibold p-1 absolute -bottom-6">
+                                <h4>ant-man</h4>
+                                <h5 id="movie-date">2022</h5>
+                                <div class="text-sm py-1 px-2 rounded-3xl absolute -top-10 left-2 bg-[rgba(244,244,233,.4)] tracking-wide" id="rating">
+                                    <i class="fas fa-star"></i>
+                                    9.3
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </a>
+                    <!-- end of movie -->
+                    <!-- movie -->
+                    <a href="#" class="movie-poster-box" tabindex="0">
+                        <figure class="h-72 rounded-md relative">
+                            <img src="img/ant-man.jpg" class="inset-0 img rounded-md absolute" alt="ant man movie poster" draggable="false" loading="lazy" data-poster-1>
+                            <img src="img/ant-man1.jpg" class="inset-0 img rounded-md absolute duration-500" alt="ant man movie poster" draggable="false" loading="lazy" data-poster-2>
+                            <figcaption class="w-full rounded-md bg-yellow-100 text-gray-800 capitalize font-semibold p-1 absolute -bottom-6">
+                                <h4>ant-man</h4>
+                                <h5 id="movie-date">2022</h5>
+                                <div class="text-sm py-1 px-2 rounded-3xl absolute -top-10 left-2 bg-[rgba(244,244,233,.4)] tracking-wide" id="rating">
+                                    <i class="fas fa-star"></i>
+                                    9.3
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </a>
+                    <!-- end of movie -->
+                    <!-- movie -->
+                    <a href="#" class="movie-poster-box" tabindex="0">
+                        <figure class="h-72 rounded-md relative">
+                            <img src="img/ant-man.jpg" class="inset-0 img rounded-md absolute" alt="ant man movie poster" draggable="false" loading="lazy" data-poster-1>
+                            <img src="img/ant-man1.jpg" class="inset-0 img rounded-md absolute duration-500" alt="ant man movie poster" draggable="false" loading="lazy" data-poster-2>
+                            <figcaption class="w-full rounded-md bg-yellow-100 text-gray-800 capitalize font-semibold p-1 absolute -bottom-6">
+                                <h4>ant-man</h4>
+                                <h5 id="movie-date">2022</h5>
+                                <div class="text-sm py-1 px-2 rounded-3xl absolute -top-10 left-2 bg-[rgba(244,244,233,.4)] tracking-wide" id="rating">
+                                    <i class="fas fa-star"></i>
+                                    9.3
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </a>
+                    <!-- end of movie -->
+                    <!-- movie -->
+                    <a href="#" class="movie-poster-box" tabindex="0">
+                        <figure class="h-72 rounded-md relative">
+                            <img src="img/ant-man.jpg" class="inset-0 img rounded-md absolute" alt="ant man movie poster" draggable="false" loading="lazy" data-poster-1>
+                            <img src="img/ant-man1.jpg" class="inset-0 img rounded-md absolute duration-500" alt="ant man movie poster" draggable="false" loading="lazy" data-poster-2>
+                            <figcaption class="w-full rounded-md bg-yellow-100 text-gray-800 capitalize font-semibold p-1 absolute -bottom-6">
+                                <h4>ant-man</h4>
+                                <h5 id="movie-date">2022</h5>
+                                <div class="text-sm py-1 px-2 rounded-3xl absolute -top-10 left-2 bg-[rgba(244,244,233,.4)] tracking-wide" id="rating">
+                                    <i class="fas fa-star"></i>
+                                    9.3
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </a>
+                    <!-- end of movie -->
+                    <!-- movie -->
+                    <a href="#" class="movie-poster-box" tabindex="0">
+                        <figure class="h-72 rounded-md relative">
+                            <img src="img/ant-man.jpg" class="inset-0 img rounded-md absolute" alt="ant man movie poster" draggable="false" loading="lazy" data-poster-1>
+                            <img src="img/ant-man1.jpg" class="inset-0 img rounded-md absolute duration-500" alt="ant man movie poster" draggable="false" loading="lazy" data-poster-2>
+                            <figcaption class="w-full rounded-md bg-yellow-100 text-gray-800 capitalize font-semibold p-1 absolute -bottom-6">
+                                <h4>ant-man</h4>
+                                <h5 id="movie-date">2022</h5>
+                                <div class="text-sm py-1 px-2 rounded-3xl absolute -top-10 left-2 bg-[rgba(244,244,233,.4)] tracking-wide" id="rating">
+                                    <i class="fas fa-star"></i>
+                                    9.3
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </a>
+                    <!-- end of movie -->
+                    <!-- movie -->
+                    <a href="#" class="movie-poster-box" tabindex="0">
+                        <figure class="h-72 rounded-md relative">
+                            <img src="img/ant-man.jpg" class="inset-0 img rounded-md absolute" alt="ant man movie poster" draggable="false" loading="lazy" data-poster-1>
+                            <img src="img/ant-man1.jpg" class="inset-0 img rounded-md absolute duration-500" alt="ant man movie poster" draggable="false" loading="lazy" data-poster-2>
+                            <figcaption class="w-full rounded-md bg-yellow-100 text-gray-800 capitalize font-semibold p-1 absolute -bottom-6">
+                                <h4>ant-man</h4>
+                                <h5 id="movie-date">2022</h5>
+                                <div class="text-sm py-1 px-2 rounded-3xl absolute -top-10 left-2 bg-[rgba(244,244,233,.4)] tracking-wide" id="rating">
+                                    <i class="fas fa-star"></i>
+                                    9.3
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </a>
+                    <!-- end of movie -->
+                    <!-- movie -->
+                    <a href="#" class="movie-poster-box" tabindex="0">
+                        <figure class="h-72 rounded-md relative">
+                            <img src="img/ant-man.jpg" class="inset-0 img rounded-md absolute" alt="ant man movie poster" draggable="false" loading="lazy" data-poster-1>
+                            <img src="img/ant-man1.jpg" class="inset-0 img rounded-md absolute duration-500" alt="ant man movie poster" draggable="false" loading="lazy" data-poster-2>
+                            <figcaption class="w-full rounded-md bg-yellow-100 text-gray-800 capitalize font-semibold p-1 absolute -bottom-6">
+                                <h4>ant-man</h4>
+                                <h5 id="movie-date">2022</h5>
+                                <div class="text-sm py-1 px-2 rounded-3xl absolute -top-10 left-2 bg-[rgba(244,244,233,.4)] tracking-wide" id="rating">
+                                    <i class="fas fa-star"></i>
+                                    9.3
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </a>
+                    <!-- end of movie -->
+                    <!-- movie -->
+                    <a href="#" class="movie-poster-box" tabindex="0">
+                        <figure class="h-72 rounded-md relative">
+                            <img src="img/ant-man.jpg" class="inset-0 img rounded-md absolute" alt="ant man movie poster" draggable="false" loading="lazy" data-poster-1>
+                            <img src="img/ant-man1.jpg" class="inset-0 img rounded-md absolute duration-500" alt="ant man movie poster" draggable="false" loading="lazy" data-poster-2>
+                            <figcaption class="w-full rounded-md bg-yellow-100 text-gray-800 capitalize font-semibold p-1 absolute -bottom-6">
+                                <h4>ant-man</h4>
+                                <h5 id="movie-date">2022</h5>
+                                <div class="text-sm py-1 px-2 rounded-3xl absolute -top-10 left-2 bg-[rgba(244,244,233,.4)] tracking-wide" id="rating">
+                                    <i class="fas fa-star"></i>
+                                    9.3
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </a>
+                    <!-- end of movie -->
+                    <!-- movie -->
+                    <a href="#" class="movie-poster-box" tabindex="0">
+                        <figure class="h-72 rounded-md relative">
+                            <img src="img/ant-man.jpg" class="inset-0 img rounded-md absolute" alt="ant man movie poster" draggable="false" loading="lazy" data-poster-1>
+                            <img src="img/ant-man1.jpg" class="inset-0 img rounded-md absolute duration-500" alt="ant man movie poster" draggable="false" loading="lazy" data-poster-2>
+                            <figcaption class="w-full rounded-md bg-yellow-100 text-gray-800 capitalize font-semibold p-1 absolute -bottom-6">
+                                <h4>ant-man</h4>
+                                <h5 id="movie-date">2022</h5>
+                                <div class="text-sm py-1 px-2 rounded-3xl absolute -top-10 left-2 bg-[rgba(244,244,233,.4)] tracking-wide" id="rating">
+                                    <i class="fas fa-star"></i>
+                                    9.3
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </a>
+                    <!-- end of movie -->
+                    <!-- movie -->
+                    <a href="#" class="movie-poster-box" tabindex="0">
+                        <figure class="h-72 rounded-md relative">
+                            <img src="img/ant-man.jpg" class="inset-0 img rounded-md absolute" alt="ant man movie poster" draggable="false" loading="lazy" data-poster-1>
+                            <img src="img/ant-man1.jpg" class="inset-0 img rounded-md absolute duration-500" alt="ant man movie poster" draggable="false" loading="lazy" data-poster-2>
+                            <figcaption class="w-full rounded-md bg-yellow-100 text-gray-800 capitalize font-semibold p-1 absolute -bottom-6">
+                                <h4>ant-man</h4>
+                                <h5 id="movie-date">2022</h5>
+                                <div class="text-sm py-1 px-2 rounded-3xl absolute -top-10 left-2 bg-[rgba(244,244,233,.4)] tracking-wide" id="rating">
+                                    <i class="fas fa-star"></i>
+                                    9.3
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </a>
+                    <!-- end of movie -->
+                    <!-- movie -->
+                    <a href="#" class="movie-poster-box" tabindex="0">
+                        <figure class="h-72 rounded-md relative">
+                            <img src="img/ant-man.jpg" class="inset-0 img rounded-md absolute" alt="ant man movie poster" draggable="false" loading="lazy" data-poster-1>
+                            <img src="img/ant-man1.jpg" class="inset-0 img rounded-md absolute duration-500" alt="ant man movie poster" draggable="false" loading="lazy" data-poster-2>
+                            <figcaption class="w-full rounded-md bg-yellow-100 text-gray-800 capitalize font-semibold p-1 absolute -bottom-6">
+                                <h4>ant-man</h4>
+                                <h5 id="movie-date">2022</h5>
+                                <div class="text-sm py-1 px-2 rounded-3xl absolute -top-10 left-2 bg-[rgba(244,244,233,.4)] tracking-wide" id="rating">
+                                    <i class="fas fa-star"></i>
+                                    9.3
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </a>
+                    <!-- end of movie -->
+                    <!-- movie -->
+                    <a href="#" class="movie-poster-box" tabindex="0">
+                        <figure class="h-72 rounded-md relative">
+                            <img src="img/ant-man.jpg" class="inset-0 img rounded-md absolute" alt="ant man movie poster" draggable="false" loading="lazy" data-poster-1>
+                            <img src="img/ant-man1.jpg" class="inset-0 img rounded-md absolute duration-500" alt="ant man movie poster" draggable="false" loading="lazy" data-poster-2>
+                            <figcaption class="w-full rounded-md bg-yellow-100 text-gray-800 capitalize font-semibold p-1 absolute -bottom-6">
+                                <h4>ant-man</h4>
+                                <h5 id="movie-date">2022</h5>
+                                <div class="text-sm py-1 px-2 rounded-3xl absolute -top-10 left-2 bg-[rgba(244,244,233,.4)] tracking-wide" id="rating">
+                                    <i class="fas fa-star"></i>
+                                    9.3
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </a>
+                    <!-- end of movie -->
+                    <!-- movie -->
+                    <a href="#" class="movie-poster-box" tabindex="0">
+                        <figure class="h-72 rounded-md relative">
+                            <img src="img/ant-man.jpg" class="inset-0 img rounded-md absolute" alt="ant man movie poster" draggable="false" loading="lazy" data-poster-1>
+                            <img src="img/ant-man1.jpg" class="inset-0 img rounded-md absolute duration-500" alt="ant man movie poster" draggable="false" loading="lazy" data-poster-2>
+                            <figcaption class="w-full rounded-md bg-yellow-100 text-gray-800 capitalize font-semibold p-1 absolute -bottom-6">
+                                <h4>ant-man</h4>
+                                <h5 id="movie-date">2022</h5>
+                                <div class="text-sm py-1 px-2 rounded-3xl absolute -top-10 left-2 bg-[rgba(244,244,233,.4)] tracking-wide" id="rating">
+                                    <i class="fas fa-star"></i>
+                                    9.3
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </a>
+                    <!-- end of movie -->
+                    <!-- movie -->
+                    <a href="#" class="movie-poster-box" tabindex="0">
+                        <figure class="h-72 rounded-md relative">
+                            <img src="img/ant-man.jpg" class="inset-0 img rounded-md absolute" alt="ant man movie poster" draggable="false" loading="lazy" data-poster-1>
+                            <img src="img/ant-man1.jpg" class="inset-0 img rounded-md absolute duration-500" alt="ant man movie poster" draggable="false" loading="lazy" data-poster-2>
+                            <figcaption class="w-full rounded-md bg-yellow-100 text-gray-800 capitalize font-semibold p-1 absolute -bottom-6">
+                                <h4>ant-man</h4>
+                                <h5 id="movie-date">2022</h5>
+                                <div class="text-sm py-1 px-2 rounded-3xl absolute -top-10 left-2 bg-[rgba(244,244,233,.4)] tracking-wide" id="rating">
+                                    <i class="fas fa-star"></i>
+                                    9.3
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </a>
+                    <!-- end of movie -->
+                    <!-- movie -->
+                    <a href="#" class="movie-poster-box" tabindex="0">
+                        <figure class="h-72 rounded-md relative">
+                            <img src="img/ant-man.jpg" class="inset-0 img rounded-md absolute" alt="ant man movie poster" draggable="false" loading="lazy" data-poster-1>
+                            <img src="img/ant-man1.jpg" class="inset-0 img rounded-md absolute duration-500" alt="ant man movie poster" draggable="false" loading="lazy" data-poster-2>
+                            <figcaption class="w-full rounded-md bg-yellow-100 text-gray-800 capitalize font-semibold p-1 absolute -bottom-6">
+                                <h4>ant-man</h4>
+                                <h5 id="movie-date">2022</h5>
+                                <div class="text-sm py-1 px-2 rounded-3xl absolute -top-10 left-2 bg-[rgba(244,244,233,.4)] tracking-wide" id="rating">
+                                    <i class="fas fa-star"></i>
+                                    9.3
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </a>
+                    <!-- end of movie -->
+                    <!-- movie -->
+                    <a href="#" class="movie-poster-box" tabindex="0">
+                        <figure class="h-72 rounded-md relative">
+                            <img src="img/ant-man.jpg" class="inset-0 img rounded-md absolute" alt="ant man movie poster" draggable="false" loading="lazy" data-poster-1>
+                            <img src="img/ant-man1.jpg" class="inset-0 img rounded-md absolute duration-500" alt="ant man movie poster" draggable="false" loading="lazy" data-poster-2>
+                            <figcaption class="w-full rounded-md bg-yellow-100 text-gray-800 capitalize font-semibold p-1 absolute -bottom-6">
+                                <h4>ant-man</h4>
+                                <h5 id="movie-date">2022</h5>
+                                <div class="text-sm py-1 px-2 rounded-3xl absolute -top-10 left-2 bg-[rgba(244,244,233,.4)] tracking-wide" id="rating">
+                                    <i class="fas fa-star"></i>
+                                    9.3
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </a>
+                    <!-- end of movie -->
+                    <!-- movie -->
+                    <a href="#" class="movie-poster-box" tabindex="0">
+                        <figure class="h-72 rounded-md relative">
+                            <img src="img/ant-man.jpg" class="inset-0 img rounded-md absolute" alt="ant man movie poster" draggable="false" loading="lazy" data-poster-1>
+                            <img src="img/ant-man1.jpg" class="inset-0 img rounded-md absolute duration-500" alt="ant man movie poster" draggable="false" loading="lazy" data-poster-2>
+                            <figcaption class="w-full rounded-md bg-yellow-100 text-gray-800 capitalize font-semibold p-1 absolute -bottom-6">
+                                <h4>ant-man</h4>
+                                <h5 id="movie-date">2022</h5>
+                                <div class="text-sm py-1 px-2 rounded-3xl absolute -top-10 left-2 bg-[rgba(244,244,233,.4)] tracking-wide" id="rating">
+                                    <i class="fas fa-star"></i>
+                                    9.3
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </a>
+                    <!-- end of movie -->
+                    <!-- movie -->
+                    <a href="#" class="movie-poster-box" tabindex="0">
+                        <figure class="h-72 rounded-md relative">
+                            <img src="img/ant-man.jpg" class="inset-0 img rounded-md absolute" alt="ant man movie poster" draggable="false" loading="lazy" data-poster-1>
+                            <img src="img/ant-man1.jpg" class="inset-0 img rounded-md absolute duration-500" alt="ant man movie poster" draggable="false" loading="lazy" data-poster-2>
+                            <figcaption class="w-full rounded-md bg-yellow-100 text-gray-800 capitalize font-semibold p-1 absolute -bottom-6">
+                                <h4>ant-man</h4>
+                                <h5 id="movie-date">2022</h5>
+                                <div class="text-sm py-1 px-2 rounded-3xl absolute -top-10 left-2 bg-[rgba(244,244,233,.4)] tracking-wide" id="rating">
+                                    <i class="fas fa-star"></i>
+                                    9.3
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </a>
+                    <!-- end of movie -->
+                    <!-- movie -->
+                    <a href="#" class="movie-poster-box" tabindex="0">
+                        <figure class="h-72 rounded-md relative">
+                            <img src="img/ant-man.jpg" class="inset-0 img rounded-md absolute" alt="ant man movie poster" draggable="false" loading="lazy" data-poster-1>
+                            <img src="img/ant-man1.jpg" class="inset-0 img rounded-md absolute duration-500" alt="ant man movie poster" draggable="false" loading="lazy" data-poster-2>
+                            <figcaption class="w-full rounded-md bg-yellow-100 text-gray-800 capitalize font-semibold p-1 absolute -bottom-6">
+                                <h4>ant-man</h4>
+                                <h5 id="movie-date">2022</h5>
+                                <div class="text-sm py-1 px-2 rounded-3xl absolute -top-10 left-2 bg-[rgba(244,244,233,.4)] tracking-wide" id="rating">
+                                    <i class="fas fa-star"></i>
+                                    9.3
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </a>
+                    <!-- end of movie -->
+                </div>
+                <!-- end of movies wrapper -->
+            </div>
+            <!-- end of movies display wrapper -->
+        </div>
+        <!-- end of section wrapper -->
+    </div>
+    <!-- end of movies section -->
+    <!-- footer -->
+    <footer role="contentinfo" class="w-full py-8 sm:py-10 md:py-16 px-2 md:px-4 bg-[url('img/site/footer-bg.jpg')] bg-no-repeat bg-cover bg-center">
+        <!-- footer wrapper -->
+        <div class="inner-wrapper">
+            <!-- footer nav -->
+            <div class="footer-nav" style="border-bottom: 1px solid hsl(220, 14%, 8%);">
+                <!-- logo -->
+                <div class="w-full flex justify-center items-center h-10 mb-8 md:mb-0 md:w-[unset] p-2">
+                    <a href="#" class="flex items-center gap-2">
+                        <figure class="w-6 sm:w-8 md:w-10 h-auto">
+                            <img src="img/site/logo.png" alt="logo">
+                        </figure>
+                        <h1 class="text-[#ff8605] font-bold font-[cinzel] text-sm sm:text-2xl md:text-4xl uppercase">xagua</h1>
+                    </a>
+                </div>
+            <!-- end of logo -->
+            <!-- footer links -->
+            <ul class="flex items-center text-center w-full sm:w-1/2 md:w-[unset] max-w-sm md:max-w-none flex-wrap gap-3 p-2">
+                <li>
+                    <a href="#" class="footer-link">HOME</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">ABOUT</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">TEAM</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">CONTACT</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">PREMIERS</a>
+                </li>
+            </ul>
+            <!-- end of footer links -->
+            <!-- subscribe form -->
+            <div class="w-full sm:w-1/2 md:md:w-[unset] flex items-center justify-center p-2">
+                <form class="w-64 flex items-center overflow-hidden h-12 relative" >
+                    <input type="email" placeholder="enter email" class="subscribe-input" required style="clip-path:  polygon(90% 0, 100% 34%, 100% 100%, 10% 100%, 0 66%, 0 0);">
+                    <button type="submit" class="subscribe-button" aria-label="subscribe button" style="clip-path:  polygon(70% 0, 100% 30%, 100% 100%, 30% 100%, 0 63%, 0 0);">
+                        <i class="fas fa-bell"></i>
+                    </button>
+                </form>
+            </div>
+            <!-- end of subscribe form -->
+            </div>
+            <!-- end of footer nav -->
+            <!-- social bar -->
+            <div class="w-full flex items-center justify-between pt-7 flex-wrap md:flex-nowrap">
+                <!-- privacy links -->
+                <ul class="flex items-center justify-center sm:justify-start w-full sm:w-1/2 md:w-3/5 p-2 gap-3 md:gap-6 flex-wrap">
+                    <li>
+                        <a href="#" class="privacy-link">FAQ</a>
+                    </li>
+                    <li>
+                        <a href="#n" class="privacy-link">HELP CENTER</a>
+                    </li>
+                    <li>
+                        <a href="#n" class="privacy-link">TERMS OF USE</a>
+                    </li>
+                    <li>
+                        <a href="#n" class="privacy-link">TERMS OF USE</a>
+                    </li>
+                    <li>
+                        <a href="#n" class="privacy-link">PRIVACY
+                        </a>
+                    </li>
+                </ul>
+                <!-- end of privacy links -->
+                <!-- social links -->
+                <ul class="social-links flex items-center justify-center sm:justify-start gap-3 w-full sm:w-1/2 md:w-2/5 p-2">
+                    <li>
+                        <a href="#n" aria-label="facebook link" class="social-link">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#n" aria-label="instagram link" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#n" aria-label="twitter link" class="social-link">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#n" aria-label="tiktok link" class="social-link">
+                            <i class="fab fa-tiktok"></i>
+                        </a>
+                    </li>
+                </ul>
+                <!-- end of social links -->
+            </div>
+            <!-- end of social bar -->
+        </div>
+        <!-- end of footer wrapper -->
+    </footer>
+    <!-- end of footer -->
+    <!-- footer outro -->
+    <div class="w-full bg-[#1b1320] px-4 py-7 text-yellow-100">
+        <!-- outro wrapper -->
+        <div class="inner-wrapper flex items-center justify-center md:justify-between flex-wrap md:flex-nowrap">
+            <p>COPYRIGHT © 2023 CODEWITHSADEE. ALL RIGHTS RESERVED</p>
+            <!-- card IMAGE box -->
+            <figure class="p-2">
+                <img src="img/site/cards.png" alt="credit cards">
+            </figure>
+            <!-- end of card -->
+        </div>
+        <!-- end of outro wrapper -->
+    </div>
+    <!-- end of footer outro -->
+    <script src="js/main.js"></script>
+</body>
+</html>
